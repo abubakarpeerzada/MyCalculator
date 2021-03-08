@@ -88,8 +88,8 @@ class MainActivity : AppCompatActivity() {
     //percentage "Mode" function body
 
     fun percentageevent(view: View) {
-        var no = EditText.text.toString().toDouble()/100
-        EditText.setText(no.toString())
+        var number = EditText.text.toString().toDouble()/100
+        EditText.setText(number.toString())
         NewOp = true
 
     }
